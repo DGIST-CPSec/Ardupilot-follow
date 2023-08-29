@@ -26,4 +26,4 @@ or
 ```gprof2dot -n[PERCENTAGE(e.g. 0.5)] -e0[PERCENTAGE] ./callgrind.out.[FILE_NUMBER] -f callgrind > out.dot
 
 
-```dot -Tsvg out.dot -o out.svg```
+dot -Tsvg out.dot -o out.svg```
